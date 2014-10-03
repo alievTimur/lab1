@@ -46,7 +46,7 @@ function calculateCarValue(form) {
 function calculateCarPrice(purchasePrice, carAge){
 	
 	// I think this was meant to be at 10% not 1000%. We might make some money then.
-	var pruchaseRate = 1000;
+	var pruchaseRate = 10 ;
 	
 	var value = ((purchasePrice / 100) * pruchaseRate) * (1 / carAge);
 	return value;
