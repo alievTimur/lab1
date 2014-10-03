@@ -46,7 +46,7 @@ function calculateCarValue(form) {
 function calculateCarPrice(purchasePrice, carAge){
 	
 	// I think this was meant to be at 10% not 1000%. We might make some money then.
-	var pruchaseRate = 10 ;
+	var pruchaseRate = 100 ;
 	
 	var value = ((purchasePrice / 100) * pruchaseRate) * (1 / carAge);
 	return value;
@@ -101,9 +101,6 @@ function numberWithCommas(number) {
 // PLEASE MAKE THIS
 // I don't want people being able to save pictures of our hot rod stock
 // If they want to see our cars they have to buy them first
-function disableRightClick() {
-	
-}
 
 
 
